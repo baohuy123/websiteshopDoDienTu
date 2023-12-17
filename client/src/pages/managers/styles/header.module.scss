@@ -1,0 +1,94 @@
+.right{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+
+    .title_admin{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-bottom: 1vh;
+        padding-left: 5vh;
+        padding-top: 1.6vh;
+        background-color: #171321;
+        color: white;
+        border-bottom: 1px solid white;
+        .text{
+            font-size: 13px;
+            color: white;
+        }
+    }
+    .list_nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 10px;
+        .btn_logout{
+            width: 100%;
+            color: black;
+            padding: 12px;
+            margin-top: 0.5vh;
+            font-size: 15px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            i{
+                margin-right: 3vh;
+            }
+            &:hover{
+                background-color: #d9f0ef;
+                color: black;
+            }
+            .title{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+            }
+          
+        }
+        
+        .navbar{
+            width: 100%;
+            color: black;
+            padding: 12px;
+            margin-top: 0.5vh;
+            font-size: 15px;
+            border-radius: 6px;
+            i{
+                margin-right: 3vh;
+            }
+            &:hover{
+                background-color: #d9f0ef;
+                color: black;
+            }
+            .title{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+            }
+        }
+        .active{
+            background-color: #d9f0ef;
+            color: black;
+        }
+    }
+}.btn_logout_btn{
+    margin-right: 1vh;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background-color:#ac0046 ;
+    color: white;
+    border-radius: 8px;
+    i{
+        margin-right: 1vh;
+    }
+    &:hover{
+        background-color: #d9f0ef;
+        color: black;
+    }
+}

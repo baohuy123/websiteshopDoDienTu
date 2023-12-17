@@ -1,0 +1,43 @@
+.homepage{
+    position: relative;
+    top: 20vh;
+    width: 100%;
+    height: 100%;
+    padding-left: 20vh;
+    padding-right: 20vh;
+   
+    .box_banner_text{
+        margin-top: 4vh;
+        width: 100%;
+        padding: 10vh 10vh;
+        border-radius: 20px;
+        color: white;
+        background-color: #5064f4;
+        .box_banner_text_title{
+            font-size: 25px;
+        }
+    }
+
+    .commit{
+        margin-top: 4vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .commit_item{
+            height:20vh;
+            width: 100%;
+            padding: 20px;
+            margin-right: 5vh;
+            text-align: center;
+            border-radius: 20px;
+            i{
+                font-size: 40px;
+                padding: 20px;
+                color: white;
+                border-radius: 100%;
+
+            }
+        }
+    }
+}

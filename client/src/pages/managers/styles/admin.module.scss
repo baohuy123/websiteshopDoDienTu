@@ -1,0 +1,30 @@
+.admin_page{
+    width: 100%;
+    height: 100%;
+    background-color: #f4f5f5;
+}
+.login{
+    width: 60%;
+    padding: 40px;
+    border-radius: 20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    .btn{
+        padding: 10px;
+        border: none;
+        background-color: black;
+        width: 100%;
+        height: 5vh;
+        color: white;
+        border-radius: 8px;
+        border: 0.5px solid rgba(128, 128, 128, 0.116);
+        &:hover{
+            background-color: #f46b5b;
+            cursor: pointer;
+            color: white;
+        }
+    }
+}

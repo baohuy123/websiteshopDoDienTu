@@ -1,0 +1,168 @@
+.auth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .auth_register{
+        margin-left: 4vh;
+        width: 100%;
+        .title{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bolds;
+        }
+        .form{
+            width: 100%;
+            margin-top: 2vh;
+            .select_input{
+                border: 1px solid rgba(128, 128, 128, 0.185);
+                outline: none;
+                color: black;
+                border-bottom-left-radius: 6px;
+                border-top-left-radius: 6px;
+                width: 80%;
+                height: 5vh;
+
+            }
+            .input{
+                width: 100%;
+                margin-bottom: 2vh;
+
+                input{
+                    padding: 12px;
+                    border: 1px solid rgba(128, 128, 128, 0.185);
+                    outline: none;
+                    color: black;
+                    border-bottom-left-radius: 6px;
+                    border-top-left-radius: 6px;
+                    width: 80%;
+                }
+                i{
+                    background-color: #e74911;
+                    padding: 16.5px;
+                    border-bottom-right-radius: 6px;
+                    border-top-right-radius: 6px;
+                    color: white;
+                }
+            }      
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            button{
+                margin-right: 5vh;
+                font-size: 13px;
+                padding: 12px 20px;
+                border: none;
+                outline: none;
+                width: 90%;
+                background-color: #ff1d63;
+                color: white;
+                border-radius: 6px;
+                
+                &:hover{
+                    background-color:black ;
+                    color: white;
+                }
+            }
+        }
+        .btn_end{
+            margin-top: 1vh;
+            width: 100%;
+            button{
+                margin-right: 1vh;
+                font-size: 13px;
+                padding: 12px 20px;
+                border: none;
+                outline: none;
+                width: 90%;
+                background-color: #ff1d63;
+                color: white;
+                border-radius: 6px;
+                
+                &:hover{
+                    background-color:black ;
+                    color: white;
+                }
+            }
+        }
+    }
+    .auth_login{
+        margin-left: 4vh;
+        width: 100%;
+        .title{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bolds;
+        }
+        .form{
+            width: 100%;
+            margin-top: 2vh;
+            .input{
+                width: 100%;
+                margin-bottom: 2vh;
+
+                input{
+                    padding: 12px;
+                    border: 1px solid rgba(128, 128, 128, 0.185);
+                    outline: none;
+                    color: black;
+                    border-bottom-left-radius: 6px;
+                    border-top-left-radius: 6px;
+                    width: 80%;
+                }
+                i{
+                    background-color: #e74911;
+                    padding: 16.5px;
+                    border-bottom-right-radius: 6px;
+                    border-top-right-radius: 6px;
+                    color: white;
+                }
+            }      
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            button{
+                margin-right: 5vh;
+                font-size: 13px;
+                padding: 12px 20px;
+                border: none;
+                outline: none;
+                width: 90%;
+                background-color: #ff1d63;
+                color: white;
+                border-radius: 6px;
+                
+                &:hover{
+                    background-color:black ;
+                    color: white;
+                }
+            }
+        }
+        .btn_end{
+            margin-top: 1vh;
+            width: 100%;
+            button{
+                margin-right: 1vh;
+                font-size: 13px;
+                padding: 12px 20px;
+                border: none;
+                outline: none;
+                width: 90%;
+                background-color: #ff1d63;
+                color: white;
+                border-radius: 6px;
+                
+                &:hover{
+                    background-color:black ;
+                    color: white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,171 @@
+.wapper_header{
+    width: 100%;
+    height: fit-content;
+    font-family: ThanhHai;
+    position: fixed;
+    height: fit-content;
+    z-index: 1;
+    top: 0;
+    padding-top: 3vh;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding-bottom: 3vh;
+    .contact_info{
+        color: black;
+        padding-left: 20vh;
+        padding-right: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .contact_info_phone{
+            color: black;
+            i{
+                margin-right: 1vh;
+            }
+        }
+        .wapper_name_auth{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .name_auth{
+                color: #ff1d63;
+                font-size: 16px;
+                border: 1px solid rgba(0, 0, 0, 0.253);
+                padding: 10px 20px;
+                border-radius: 10px;
+                i{
+                    margin-right: 2vh;
+                }
+                &:hover{
+                    background-color:black ;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+            .btn_logout{
+                margin-left: 1vh;
+                color: black;
+                font-size: 16px;
+                border: 1px solid rgba(0, 0, 0, 0.253);
+                padding: 10px 20px;
+                border-radius: 10px;
+                i{
+                    margin-right: 2vh;
+                }
+                &:hover{
+                    background-color:black ;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+       
+        .button_auth{
+            button{
+                padding: 10px 20px;
+                border: none;
+                outline: none;
+                background-color: white;
+                color: #ff1d63;
+                border-radius: 10px;
+                border: 1px solid rgba(0, 0, 0, 0.253);
+                i{
+                    margin-right: 2vh;
+                }
+                &:hover{
+                    background-color:black ;
+                    color: white;
+                }
+            }
+        }
+    }
+    .info_shop{
+        width: 100%;
+        color: black;
+        .navbar{
+            .title{
+                width: 20vh;
+                padding: 12px;
+                background-color: #ff1d63;
+                color: white;
+                font-size: 12px;
+                border-radius: 10px;
+                i{
+                    margin-right: 1vh;
+                }
+                &:hover{
+                    background-color:#2e20c4 ;
+                }
+            }
+            .active{
+                background-color:#2e20c4 ;
+    
+            }
+            
+        }
+       
+    }
+    .logo_input{
+        padding-left: 20vh;
+        padding-right: 20vh;
+        margin-top: 10px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 10% 10% 60% 20%;
+        align-items: center;
+        .logo{
+            font-size: 20px;
+            color: black;
+        }
+        .input_find_product{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .input_find_product_text{
+                padding: 10px;
+                border: 1px solid gray;
+                background-color: none;
+                font-size: 14px;
+                color: black;
+                width: 60%;
+                border-bottom-left-radius: 7px;
+                border-top-left-radius: 7px;
+                &:focus{
+                    outline: none;
+                }
+            }
+            button{
+                font-size: 13px;
+                padding: 12px 20px;
+                border: none;
+                outline: none;
+                background-color: #ff1d63;
+                color: white;
+                border-bottom-right-radius: 7px;
+                border-top-right-radius: 7px;
+                
+                &:hover{
+                    background-color:#2e20c4 ;
+                }
+            }
+        }
+        .btn_cart{
+            text-align: end;
+            width: 100%;
+            button{
+                padding: 13px 14px;
+                border: none;
+                outline: none;
+                background-color: #ff1d63;
+                color: white;
+                border-radius: 10px;
+                font-size: 15px;
+                &:hover{
+                    background-color:#2e20c4 ;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+.dashboard{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    .title_admin{
+        width: 100%;
+        text-align: start;
+        margin-top: 0;
+        padding-bottom: 1vh;
+        padding-left: 5vh;
+        padding-top: 1.6vh;
+        background-color: #171321;
+        color: white;
+        border-left: 1px solid white;
+        .text{
+            font-size: 13px;
+            color: white;
+        }
+    }
+    .main_title{
+        width: 100%;
+        margin-top: 1vh;
+        position: relative;
+        overflow-y: scroll;
+        padding-right: 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .wapper_setting{
+            border: 1px solid #ededed;
+            margin-top: 2vh;
+            width: 90%;
+            height: 50vh;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: white;
+            .box{
+                margin-top: 5vh;
+                border: 1px solid rgba(128, 128, 128, 0.205);
+                padding: 20px;
+                margin-right: 10vh;
+                border-radius: 8px;
+                height: 20vh;
+                .rate_import{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    input{
+                        width: 30vh;
+                        font-size: 15px;
+                        padding: 10px;
+                        border: 0.5px solid rgba(128, 128, 128, 0.116);
+                        border-radius: 10px;
+                        outline: none;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                    button{
+                        font-size: 13px;
+                        padding: 12px 20px;
+                        border: none;
+                        outline: none;
+                        background-color: #ff1d63;
+                        color: white;
+                        border-radius: 10px;
+                        margin-right: 1vh;
+                        margin-top: 1vh;
+                        width: fit-content;
+                        &:hover{
+                            background-color:black ;
+                            color: white;
+                        }
+                    }
+                }
+                .backup_db{
+                    button{
+                        font-size: 13px;
+                        padding: 12px 20px;
+                        border: none;
+                        outline: none;
+                        background-color: #ff1d63;
+                        color: white;
+                        border-radius: 10px;
+                        margin-right: 1vh;
+                        margin-top: 5vh;
+                        width: fit-content;
+                        &:hover{
+                            background-color:black ;
+                            color: white;
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+}
